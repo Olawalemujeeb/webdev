@@ -1,0 +1,58 @@
+.icon-inside i{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    padding: 10px 10px;
+    color: black;
+    
+}
+.icon-inside{
+    position: relative;
+
+}
+input{
+    width: 40%;
+    padding: 15px;
+    margin: 4px;
+    box-sizing: border-box;
+    padding-left: 40px;
+}
+.icon-insider i{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    padding: 10px 10px;
+    color: black;
+    
+}
+h2{
+ text-align: center; 
+ color: black;
+ font-family: sans-serif;  
+}
+.icon-insider{
+    position: relative;
+
+}
+input{
+    width: 300px;
+    padding: 7px;
+    margin: 4px;
+    box-sizing: border-box;
+    padding-left: 40px;
+}
+form{
+    background: white;
+    width: 400px;
+    height: 100vh;
+    margin-left: 300px;
+    align-items: center;
+
+}
+body{
+    background: lightseagreen;
+}
+.container{
+    justify-content: center;
+     margin-left: 300px;
+}

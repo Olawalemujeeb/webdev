@@ -1,0 +1,54 @@
+body{
+    background: whitesmoke;
+}
+form{
+    margin-left: 250px;
+    background:silver ;
+    width: 500px;
+    height: 55vh;
+    align-items: center;
+    border-radius: 5px ;
+    box-shadow: 0 2px 10px black;
+    justify-content: center;
+}
+.header h2{
+background: slategrey;
+width: 100%;
+text-align: center;
+color: white;
+font-weight: bold;
+font-family: sans-serif;
+height: 6vh;
+margin-bottom: 15px;
+}
+input{
+    margin-left: 20px;
+    padding: 10px;
+    width: 320px;
+    background: beige;
+    border: none;
+}
+.we{
+    background-color:beige ;
+    padding: 10px;
+        margin-left: 20px;
+}
+.submit-btn input{
+    background: lightskyblue;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 80px;
+    width: 330px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+#ball{
+    margin-left: 80px;
+    text-decoration: none;
+    color: beige;
+}
+#okay{
+    color: beige;
+    text-decoration:none;
+}

@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5vh;
+    background: chocolate;
+    color: white;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: lightskyblue;
+    height: 7vh;
+}
+nav .logo img{
+    width: 90px;
+
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+nav ul li a{
+text-decoration: none;
+color: white;
+font-weight: 700;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(rgba(0,0,0,0.7) ,rgba(0,0,0,0.7)),url(./img/background.png);
+height:70vh ;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+section .details{
+    margin-left: 60px;  
+}
+p{
+    color: silver;
+}
+h2{
+    color: white;
+font-size: 50px;
+font-family: arail;
+}
+button{
+    margin-top: 12px;
+    padding: 8px;
+    background: lime;
+    border: none;
+    font: bold;
+    color: dark
+}
+.myform{ 
+margin-right: 200px;
+}
+h3{
+    color:black;
+    font-family: sans-serif;
+font-size: 20px;
+text-align: center;
+}
+form{
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+    background: lightgreen;
+
+}
+input{
+    padding: 6px;
+    margin: 6px;
+    background: whitesmoke;
+    border: none;
+    width: 270px;
+
+}
+.ball{
+    margin-top: 12px;
+    margin-left: 12px;
+    padding: 8px;
+    background: darkorchid;
+    border: none;
+    font: bold;
+    width: 270px;
+    color: dark;
+    font-weight: 700;
+}
+footer{
+
+text-align: center;
+    height: 5vh;
+    background: crimson;
+    font-weight: 600;
+    color: white;
+}
